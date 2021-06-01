@@ -4,7 +4,7 @@ function Header(){
     return(
         <div className='header-wrapper'>
             <div className='main-info'>
-                <h1>Web Development and websites promotion</h1>
+                <h1>Zach Bayard</h1>
                 <Typed
                     className='typed-text'
                     strings={["React", "Javascript", "Ruby on Rails", "PostgreSQL", "Redux"]}
