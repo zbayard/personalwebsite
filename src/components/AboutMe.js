@@ -13,7 +13,7 @@ function AboutMe(){
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">about me</h1>
                     <p>
-                        add a description here 
+                    A design-minded software developer and music producer with experience in React & Rails. Thrives in creative, challenging, & collaborative culture.  Loves to dance.
                     </p>
                 </div>  
             </div>
