@@ -1,55 +1,54 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
-  --primary-white: #fff;
-  --primary-dark: rgba(255,255,255,0);
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
+  
+
+    /************ Original Color Pallette **************/
+
+    --primary-white: #ffffff;
+    --primary-light-grey: #f4f4f4;
+    --primary-grey: #ccd1d9;
+    --primary-dark-grey: #666666;
+    --dark-mode-green: #f9ab00;
+    --primary-dark: rgb(52, 58, 64);
+    --primary-red: #ef4035;
+    --primary-hover-red: #f33501;
+    --primary-black: #000000;
+    --primary-transparent-black: rgba(0,0,0,0.7);
+    --primary-green: green;
+  
+    /************ Dark Mode Color Pallette **************/
+  
+    --background-black: #121212;
+    --navbar-dark-grey: #181818;
+    --body-light-grey: #404040;
+    --body-dark-grey: #282828;
+    --primary-text-white: #ffffff;
+    --secondary-text-white: #B3B3B3;
+  
+  
+    --dark-mode-red: #CF6679;
+    --dark-mode-blue: #3700B3;
+    --dark-mode-light-blue: #6200EE;
+    --dark-mode-purple: #BB86FC;
+    --dark-mode-green: #018786;
+    --dark-mode-turquoise: #03DAC6;
+  
+    --dark-mode-extended-yellow: #FF991F;
+    --dark-mode-extended-blue: #00A3BF;
+    --dark-mode-extended-blue-light: #B3F5FF;
+
 }
 
 body{
   font-family: 'Roboto Condensed', sans-serif !important;
 }
-/* ********NAVBAR********* */
+
+
+
+/*********NAVBAR********* */
 nav{
   z-index: 2;
 }
@@ -82,7 +81,7 @@ nav ul li {
 }
 
 
-/* ********HEADER********* */
+/*********HEADER**********/
 
 .header-wrapper{
   position: relative;
@@ -114,7 +113,7 @@ nav ul li {
 
 
 
-/* ******TYPED TEXT****** */
+/*******TYPED TEXT****** */
 
 .typed-text{
   font-size: 2rem;
@@ -129,7 +128,7 @@ nav ul li {
   }
 }
 
-/* *****HEADER MAIN BUTTON***** */
+/******HEADER MAIN BUTTON******/
 
 .btn-main-offer{
   border: 1px solid var(--primary-red);
@@ -148,7 +147,7 @@ nav ul li {
   transition: .2s ease-in-out;
 }
 
-/* *****PARTICLES***** */
+/******PARTICLES***** */
 
 .tsparticles-canvas-el{
   position: absolute;
@@ -163,7 +162,7 @@ nav ul li {
   }
 }
 
-/* *******ABOUT ME*********/
+/********ABOUT ME*********/
 
 .photo-wrap{
   display: flex;
@@ -189,3 +188,73 @@ nav ul li {
     width: 10rem;
   }
 }
+
+/********************************* SKILLS *********************************/
+
+.skills {
+  background-size: cover;
+  background-color: var(--body-dark-grey);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.skills h1 {
+  color: var(--dark-mode-green);
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+
+.skills-content {
+  text-align: center;
+  max-width: 18rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-black)
+}
+
+
+.myCarousel {
+  color: var(--dark-mode-green);
+  background: transparent;
+  margin-top: -6%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 9rem;
+}
+
+.myCarousel h3 {
+  color: var(--dark-mode-green);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+.myCarousel p {
+  color: var(--primary-grey);
+} 
+
+
+.carousel .slide img {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel svg {
+  font-size: 5rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+} 
