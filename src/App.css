@@ -202,7 +202,7 @@ nav ul li {
 }
 
 .skills h1 {
-  color: var(--dark-mode-green);
+  color: var(--primary-white);
   padding: 1rem 0;
   text-transform: uppercase;
 }
@@ -216,7 +216,7 @@ nav ul li {
 
 
 .myCarousel {
-  color: var(--dark-mode-green);
+  color: var(--primary-white);
   background: transparent;
   margin-top: -6%;
   margin-left: auto;
@@ -228,7 +228,7 @@ nav ul li {
 }
 
 .myCarousel h3 {
-  color: var(--dark-mode-green);
+  color: var(--primary-white);
   font-weight: 900;
   text-transform: uppercase;
 }

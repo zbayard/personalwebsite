@@ -2,7 +2,7 @@ import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { FaReact } from 'react-icons/fa';
-import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiAdobepremiere, SiAdobephotoshop } from 'react-icons/si';
+import { SiJavascript, SiRails, SiCss3, SiRuby, SiHtml5, SiPostgresql, SiGit } from 'react-icons/si';
 
 function SkillsCarousel(){
     return (
@@ -53,14 +53,14 @@ function SkillsCarousel(){
                 </div>
                 <div>
                     <div className="myCarousel">
-                        <h3><SiAdobepremiere /></h3>
-                        <h3>Premiere</h3>
+                        <h3><SiPostgresql /></h3>
+                        <h3>PostgreSQL</h3>
                     </div>
                 </div>
                 <div>
                     <div className="myCarousel">
-                        <h3><SiAdobephotoshop /></h3>
-                        <h3>Photoshop</h3>
+                        <h3><SiGit /></h3>
+                        <h3>Git</h3>
                     </div>
                 </div>
             </Carousel>
