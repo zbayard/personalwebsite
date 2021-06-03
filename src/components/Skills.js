@@ -1,5 +1,6 @@
 import React from "react";
 import SkillsCarousel from "./SkillsCarousel"
+import Links from './Links.js'
 
 function Skills(){
     return(
@@ -12,7 +13,7 @@ function Skills(){
                 </div>
             </div>
         </div>
-        {/* <Links /> */}
+        <Links />
         </div>
     )
 };
