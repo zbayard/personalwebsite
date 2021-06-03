@@ -80,6 +80,25 @@ nav ul li {
   border-top: .1875rem solid var(--primary-white);
 }
 
+/********* NAV BAR RESUME BUTTON *********/
+
+.navbar-button{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: .625rem .75rem .75rem .75rem;
+  color: var(--primary-white);
+  margin: .5rem;
+  
+}
+
+.navbar-button:hover{
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
 
 /*********HEADER**********/
 
