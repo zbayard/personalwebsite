@@ -13,8 +13,13 @@ function AboutMe(){
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">about me</h1>
                     <p>
-                        insert stuff here
+                        A design-minded developer & musician/producer based in Brooklyn, NY. Most passionate working on front-end development, especially with React.js but also experienced in using Ruby on Rails.
                     </p>
+                    <>
+                    <p>
+                        "And if the music is good, you DANCE."
+                    </p>
+                    </>
                 </div>  
             </div>
         </div>

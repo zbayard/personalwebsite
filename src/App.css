@@ -219,7 +219,7 @@ nav ul li {
 
 .skills {
   background-size: cover;
-  background-color: var(--body-dark-grey);
+  background-color: var(--primary-white);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -228,7 +228,7 @@ nav ul li {
 }
 
 .skills h1 {
-  color: var(--primary-white);
+  color: var(--primary-black);
   padding: 1rem 0;
   text-transform: uppercase;
 }
@@ -237,7 +237,7 @@ nav ul li {
   text-align: center;
   max-width: 18rem;
   margin: 0 auto 2rem auto;
-  background: var(--primary-transparent-black)
+  background: var(--primary-black)
 }
 
 
@@ -290,7 +290,7 @@ nav ul li {
 .links {
   text-align: center;
   padding-bottom: 0rem;
-  background: var(--body-dark-grey);
+  background: var(--primary-white);
   padding-top: 0rem;
   background-size: cover;
   background-position: center;
@@ -299,12 +299,12 @@ nav ul li {
 }
 
 .links h1 {
-  color: var(--primary-white);
+  color: var(--primary-black);
   text-transform: uppercase;
 }
 
 .links h3 {
-  color: var(--primary-white);
+  color: var(--primary-black);
   text-transform: uppercase;
 }
 
@@ -312,6 +312,7 @@ nav ul li {
   position: relative;
   margin: 0.375rem auto;
   background: var(--primary-white);
+  border: 1px solid var(--primary-black);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;

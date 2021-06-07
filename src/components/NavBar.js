@@ -21,13 +21,10 @@ function NavBar(){
                         <a className="nav-link" href="#">about me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">technologies</a>
+                        <a className="nav-link" href="#">projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">experience</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">portfolio</a>
+                        <a className="nav-link" href="#">toolbox & links</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">contact</a>
