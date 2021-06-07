@@ -46,6 +46,12 @@ body{
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 
+h1, h2 {
+	font-family: 'Courier New', monospace;
+	font-weight: 700;
+  text-transform: lowercase !important;
+}
+
 
 
 /*********NAVBAR********* */
@@ -389,4 +395,23 @@ button.btn-links {
 
 .skills-icons {
   margin: 3rem;
+}
+
+
+/* ********** PROJECTS ******** */
+
+.project-wrapper{
+  background: var(--primary-white);
+  padding: 3rem 0;
+}
+
+.project-image{
+  width: 15rem;
+  border: 1px solid var(--primary-black);
+  padding: 0 0.5rem;
+}
+
+.project-image-box{
+  position: relative;
+  margin: 1rem;
 }

@@ -6,7 +6,7 @@ function Skills(){
     return(
         <div>
         <div id="skills" className="skills">
-            <h1>Skills & Links</h1>
+            <h1>Toolbox & Links</h1>
             <div className="container">
                 <div className="skills-content">
                     <SkillsCarousel />
