@@ -736,3 +736,11 @@ textarea.form-control {
     /* display: none; */
   }
 }
+
+/**********FOOTER****** */
+
+.footer {
+  background: var(--primary-white);
+  color: var(--primary-black);
+  /* padding: 3rem; */
+}
