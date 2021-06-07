@@ -29,7 +29,7 @@ function Contact(){
     const sendEmail = (serviceID, templateID, variables, userID) => {
         emailjs.send(serviceID, templateID, variables, userID)
         .then(() => {
-            setSuccessMessage("Form sent successfully! I'll contact you as soon as possible.")
+            setSuccessMessage("yay! thanks for reaching out, i'll get back to you as soon as i can.")
         }).catch(err => console.error(`Something went wrong ${err}`));
     }
     
@@ -37,10 +37,9 @@ function Contact(){
         <div id="contact" className="contact">
            <div className="text-center">
                <div className="contact-head">
-                    <h1>contact me</h1>
+                    <h1>drop a line</h1>
                     <p>
-                        Please fill out the form and I'll contact you as soon as possible.
-                        Thank you for reaching out!
+                        I'd love to hear from you :)
                     </p>
                     <span className="success-message">{successMessage}</span>
                </div>
@@ -54,7 +53,7 @@ function Contact(){
                                 <input
                                     type="text" 
                                     className="form-control"
-                                    placeholder="Name"
+                                    placeholder="NAME"
                                     name= "name"
                                     ref={
                                         register({
@@ -76,7 +75,7 @@ function Contact(){
                                 <input
                                     type="text"  
                                     className="form-control"
-                                    placeholder="Phone"
+                                    placeholder="PHONE"
                                     name="phone"
                                     ref={
                                         register({
@@ -94,7 +93,7 @@ function Contact(){
                                 <input
                                     type="email"  
                                     className="form-control"
-                                    placeholder="Email"
+                                    placeholder="EMAIL"
                                     name= "email"
                                     ref={
                                         register({
@@ -116,7 +115,7 @@ function Contact(){
                                 <input 
                                     type="text" 
                                     className="form-control"
-                                    placeholder="Subject"
+                                    placeholder="SUBJECT"
                                     name= "subject"
                                     ref={
                                         register({
@@ -136,7 +135,7 @@ function Contact(){
                                 <textarea 
                                     type="text" 
                                     className="form-control"
-                                    placeholder="Message..."
+                                    placeholder="MESSAGE..."
                                     name= "description"
                                     ref={
                                         register({
