@@ -1,5 +1,5 @@
 import React from 'react';
-import discourse from '../discourse.png';
+import discourse from '../discourse.JPG';
 import gigbag from '../gigbag.png';
 import grooveplayer from '../grooveplayer.png';
 // FONT AWESOME IMPORTS
