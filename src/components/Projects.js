@@ -4,7 +4,7 @@ import gigbag from '../gigbag.png';
 import grooveplayer from '../grooveplayer.png';
 // FONT AWESOME IMPORTS
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faSearchPlus, faLaptopCode, faPlayCircle } from "@fortawesome/free-solid-svg-icons"
+import { faSearchPlus, faLaptopCode} from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
