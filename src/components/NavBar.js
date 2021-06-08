@@ -5,7 +5,7 @@ import {faBars} from '@fortawesome/free-solid-svg-icons';
 
 function NavBar(){
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className='container'>
             <a className="navbar-button" href="https://drive.google.com/file/d/1yo6xlNNNYUchX7AE5hTFVOhSws47vChB/view?usp=sharing" target="_blank">Resume</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
