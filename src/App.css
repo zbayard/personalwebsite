@@ -85,7 +85,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: .1875rem solid var(--primary-dark);
+  border-top: .1875rem solid var(--primary-black);
 }
 
 .navbar-nav > li > a:hover {
@@ -456,7 +456,7 @@ button.btn-links {
 }
 
 .project-image-box:hover .project-icon{
-  opacity: 70%;
+  opacity: .7;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
