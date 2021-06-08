@@ -4,15 +4,15 @@ function Header(){
     return(
         <div className='header-wrapper'>
             <div className='main-info'>
-                <h1>Zach Bayard</h1>
+                <h1>welcome</h1>
                 <Typed
                     className='typed-text'
-                    strings={["React", "Javascript", "Ruby on Rails", "PostgreSQL", "Redux"]}
+                    strings={["Creative", "Software Developer", "Musician", "Producer"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
-                <a href='#' className='btn-main-offer'>Contact Me</a>
+                <a className='btn-main-offer'href="https://drive.google.com/file/d/1yo6xlNNNYUchX7AE5hTFVOhSws47vChB/view?usp=sharing" target="_blank">Resume</a>
 
             </div>
 
