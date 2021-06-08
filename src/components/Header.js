@@ -2,12 +2,12 @@ import Typed from 'react-typed'
 
 function Header(){
     return(
-        <div className='header-wrapper'>
+        <div id="home" className='header-wrapper'>
             <div className='main-info'>
                 <h1>welcome</h1>
                 <Typed
                     className='typed-text'
-                    strings={["I'm a Creative", "I'm a Software Developer", "I'm a Musician", "I'm a Producer"]}
+                    strings={["good evening", "good morning", "good afternoon"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

@@ -162,7 +162,7 @@ function Projects(){
 
 
    return(
-       <div className="project-wrapper">
+       <div id="projects" className="project-wrapper">
            <div className="container">
                <h1 className="text-lowercase text-center py-5">projects</h1>
                <div className="image-box-wrapper row justify-content-center">

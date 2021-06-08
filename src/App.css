@@ -85,7 +85,7 @@ nav ul li {
 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: .1875rem solid var(--primary-dark);
 }
 
