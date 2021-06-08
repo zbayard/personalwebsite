@@ -58,8 +58,7 @@ h1, h2 {
 /*********NAVBAR********* */
 nav{
   z-index: 2;
-  /* background: var(--primary-project-white);
-  opacity: 20%; */
+  /* background: transparent; */
 }
 
 nav h2{
