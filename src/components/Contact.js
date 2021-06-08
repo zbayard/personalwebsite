@@ -29,7 +29,7 @@ function Contact(){
     const sendEmail = (serviceID, templateID, variables, userID) => {
         emailjs.send(serviceID, templateID, variables, userID)
         .then(() => {
-            setSuccessMessage("yay! thanks for reaching out, i'll get back to you as soon as i can.")
+            setSuccessMessage("yay! if you see this message then it means it worked... chat soon!")
         }).catch(err => console.error(`Something went wrong ${err}`));
     }
     
@@ -37,9 +37,9 @@ function Contact(){
         <div id="contact" className="contact">
            <div className="text-center">
                <div className="contact-head">
-                    <h1>drop a line</h1>
+                    <h1>say hey</h1>
                     <p>
-                        I'd love to hear from you :)
+                        I promise I'll say it back.
                     </p>
                     <span className="success-message">{successMessage}</span>
                </div>
@@ -139,7 +139,7 @@ function Contact(){
                                     name= "description"
                                     ref={
                                         register({
-                                            required: "Please describe shortly your project needs... ",
+                                            required: "Don't forget a message! ",
                                         })
                                     }
                                 ></textarea>
