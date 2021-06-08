@@ -406,7 +406,7 @@ button.btn-links {
 }
 
 
-/* ********** PROJECTS ******** */
+/*********** PROJECTS ******** */
 
 .project-wrapper{
   background: var(--primary-project-white);
@@ -418,7 +418,7 @@ button.btn-links {
 .project-image{
   width: 16rem;
   height: 9rem;
-  border: 1px solid var(--primary-black);
+  border: 1px solid var(--primary-project-white);
   padding: 0 0.5rem;
 }
 
@@ -427,7 +427,8 @@ button.btn-links {
   margin: 1rem;
 }
 
-/* ***** OVERFLOW ********/
+
+/****** OVERFLOW ********/
 
 .overflow{
   position: absolute;
@@ -436,13 +437,14 @@ button.btn-links {
   width: 16rem;
   height: 9rem;
   top: 0;
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-project-white);
   cursor: pointer;
 }
 
 .project-image-box:hover .overflow{
   opacity: 20%;
   transition: 0.3s ease-in-out;
+  
 }
 
 .project-icon{
@@ -620,7 +622,6 @@ button.btn-links {
 
 .contact {
   background: var(--primary-project-white);
-  /* background: url(underwater.jpg); */
   padding: 3rem 0;
   background-size: cover;
   background-position: center;
@@ -729,21 +730,6 @@ textarea.form-control {
 
   .contact p {
     padding: 0 0.4rem;
-  }
-}
-
-/****** PARTICLES JS******/
-
-.particles-bubbles {
-  position: absolute;
-  height: 100vh ;
-  width: 100vw;
-  /* z-index: 1; */
-}
-
-@media(max-width: 768px) {
-  .particles-bubbles {
-    /* display: none; */
   }
 }
 
